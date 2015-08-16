@@ -16,10 +16,10 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 188,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 1645.1833145508238
         }
       },
       "color": {
@@ -44,14 +44,14 @@ particlesJS('particles-js',
         "value": 0.5,
         "random": false,
         "anim": {
-          "enable": false,
+          "enable": true,
           "speed": 1,
           "opacity_min": 0.1,
           "sync": false
         }
       },
       "size": {
-        "value": 5,
+        "value": 3,
         "random": true,
         "anim": {
           "enable": false,
@@ -61,7 +61,7 @@ particlesJS('particles-js',
         }
       },
       "line_linked": {
-        "enable": true,
+        "enable": false,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -69,11 +69,12 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 1,
         "direction": "none",
-        "random": false,
+        "random": true,
         "straight": false,
         "out_mode": "out",
+        "bounce": false,
         "attract": {
           "enable": false,
           "rotateX": 600,
@@ -85,11 +86,11 @@ particlesJS('particles-js',
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true,
-          "mode": "repulse"
+          "enable": false,
+          "mode": "grab"
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "push"
         },
         "resize": true
@@ -109,7 +110,8 @@ particlesJS('particles-js',
           "speed": 3
         },
         "repulse": {
-          "distance": 200
+          "distance": 200,
+          "duration": 0.4
         },
         "push": {
           "particles_nb": 4
@@ -119,15 +121,7 @@ particlesJS('particles-js',
         }
       }
     },
-    "retina_detect": true,
-    "config_demo": {
-      "hide_card": false,
-      "background_color": "#b61924",
-      "background_image": "",
-      "background_position": "50% 50%",
-      "background_repeat": "no-repeat",
-      "background_size": "cover"
-    }
+    "retina_detect": true
   }
 
 );
