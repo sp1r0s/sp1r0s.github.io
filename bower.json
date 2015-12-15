@@ -1,0 +1,11 @@
+{
+  "name": "sp1r0s-website",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.4.5",
+    "bootstrap": "3.1.1"
+  },
+  "devDependencies": {
+  },
+  "appPath": "/"
+}
